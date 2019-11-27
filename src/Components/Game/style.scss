@@ -1,0 +1,30 @@
+.gameWrap {
+  h3 {
+    text-align: center;
+  }
+  .gameContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .gameImg {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0px;
+
+      img {
+        width: 70%;
+      }
+    }
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    p {
+      width: 70%;
+    }
+  }
+  .video {
+    padding: 20px 0px;
+  }
+}

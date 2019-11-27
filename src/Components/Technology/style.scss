@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
+.technologyWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .image {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    img {
+      width: 70%;
+      width: 700px;
+      max-width: 800px;
+    }
+  }
+}
+.technologyText {
+  padding: 20px 10%;
+  font-family: "Public Sans", sans-serif;
+}

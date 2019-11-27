@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
+@mixin font {
+  width: 800px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+}
+.titleHome {
+  text-align: center;
+  font-family: "Calistoga", cursive;
+  color: rgba($color: #2075c5, $alpha: 1);
+}
+.homeWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .example {
+    @include font;
+    img {
+      height: 500px;
+      width: 600px;
+      background-color: rgba(#3f4041, $alpha: 0.5);
+    }
+    p {
+      padding: 15px;
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+}

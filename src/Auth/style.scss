@@ -1,0 +1,62 @@
+.logWrap {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0px;
+
+  div {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 19px rgba(155, 112, 156, 0.9);
+
+    align-content: center;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    h3 {
+      margin: 70px 0;
+      color: #6a6a6a;
+      text-align: center;
+    }
+
+    input {
+      width: 230px;
+      height: 50px;
+      border-radius: 25px;
+      padding: 0 30px;
+      outline: none;
+    }
+    input[type="text"],
+    input[type="password"] {
+      border: 1px solid #ff8080;
+      font-size: 17px;
+      &:focus {
+        border: 2.3px solid #ff8080;
+      }
+    }
+    input[type="password"] {
+      margin: 10px 0 20px 0;
+    }
+    input[type="submit"] {
+      background-color: #ff8080;
+      border: none;
+      font-size: 20px;
+      color: white;
+      margin-bottom: 30px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    input[type="reset"] {
+      background-color: rgba(151, 151, 151, 0.2);
+      border: 2px solid rgba(111, 189, 241, 0.151);
+      &:hover {
+        background-color: rgba(120, 206, 247, 0.151);
+      }
+    }
+  }
+}
